@@ -1,2 +1,3 @@
-# follow-the-paddle
-Parking Lot for Veteran Voyage 360 Tracking
+Simple HTML and CSS based web layout.
+
+Includes social media sharing icons, a comments section, an embedded video, and an embedded map.

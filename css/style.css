@@ -1,0 +1,116 @@
+body {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+
+  background: url(https://s3-us-west-2.amazonaws.com/operation-torrent/FollowThePaddle/OPPHXFromTrailer3.png);
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.4);
+  margin-bottom: 40px;
+  border-radius: 18px;
+  padding-bottom: 10px;
+}
+
+.twitter-share-button{
+  margin: 3px;
+  vertical-align: text-bottom !important;
+}
+
+.fb-like {
+  margin: 3px;
+  vertical-align: text-bottom !important;
+}
+
+.fb-send {
+  margin: 3px;
+  vertical-align: text-bottom !important;
+}
+
+h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 36px;
+	margin-bottom: -20px;
+}
+
+h2 {
+	font-size: 19px;
+	margin-bottom: 0 auto;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+p {
+	font-size: 12px;
+}
+
+a {
+	color: #e67e22;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.twitter-container {
+  margin-top: 100px;
+}
+
+.vidWrap {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0px;
+  margin-bottom: 40px;
+}
+
+.vidWrap iframe, .vidWrap object, .vidWrap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vidContainer {
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.mapWrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.mapWrap iframe, .mapWrap object, .mapWrap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mapContainer {
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.commentsContainer {
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(210,210,210,0.4);
+  margin-bottom: 40px;
+  border-radius: 18px;
+}
