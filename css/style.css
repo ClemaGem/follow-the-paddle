@@ -19,29 +19,6 @@ body {
     padding-bottom: 2px;
   }
 
-h1 {
-	font-size: 38px;
-	margin-bottom: -36px;
-  padding-top: 18px;
-}
-
-h2 {
-  font-family: 'Oswald', sans-serif;
-	font-size: 22px;
-	margin-bottom: 0 auto;
-}
-
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-}
-
-p {
-	font-size: 12px;
-  margin: -2px;
-  color: #241789;
-}
-
  .eventcontainers {
     width: 500px;
     margin: 0 auto;
@@ -78,5 +55,34 @@ p {
   }
 
 .twitter-container {
-  margin-top: 300px;
+  margin-top: 400px;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: -36px;
+  padding-top: 18px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  margin-bottom: 0 auto;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+  margin: -2px;
+  color: black;
+}
+
+a {
+  font-size: 12px;
+  color: #241789;
+  text-decoration: none;
 }
