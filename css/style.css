@@ -19,24 +19,6 @@ body {
     padding-bottom: 2px;
   }
 
-  .twitter-share-button {
-    display: inline;
-    margin: 3px;
-    vertical-align: text-bottom !important;
-  }
-
-  .fb-like {
-    display: inline;
-    margin: 3px;
-    vertical-align: text-bottom !important;
-  }
-
-  .fb-send {
-    display: inline;
-    margin: 3px;
-    vertical-align: text-bottom !important;
-  }
-
 h1 {
 	font-size: 34px;
 	margin-bottom: -30px;
@@ -56,12 +38,6 @@ h3 {
 
 p {
   font-family: 'Oswald', sans-serif;
-	font-size: 12px;
-}
-
-a {
-	color: #e67e22;
-	text-decoration: none;
 	font-size: 12px;
 }
 
