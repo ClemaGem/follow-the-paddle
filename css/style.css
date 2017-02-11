@@ -10,10 +10,10 @@ body {
   background-attachment: fixed;
 }
 
-  .container {
+  .headcontainer {
     width: 600px;
     margin: 0 auto;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
     margin-bottom: 40px;
     border-radius: 18px;
     padding-bottom: 10px;
@@ -38,22 +38,23 @@ body {
   }
 
 h1 {
-	font-family: 'Special Elite', cursive;
 	font-size: 34px;
 	margin-bottom: -10px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 0 auto;
 }
 
 h3 {
-  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 16px;
 }
 
 p {
+  font-family: 'Oswald', sans-serif;
 	font-size: 12px;
 }
 
@@ -62,6 +63,33 @@ a {
 	text-decoration: none;
 	font-size: 12px;
 }
+
+ .livecontainer {
+    width: 150px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+
+ .pastcontainer {
+    width: 150px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+
+ .futurecontainer {
+    width: 150px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
 
 .twitter-container {
   margin-top: 100px;
