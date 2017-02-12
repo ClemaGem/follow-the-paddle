@@ -3,7 +3,7 @@ body {
   text-align: center;
   line-height: 1.5;
   color: white;
-  background: url(https://s3-us-west-2.amazonaws.com/operation-torrent/FollowThePaddle/OPPHXFromTrailer3.png);
+  background: url(../images/OPPHXFromTrailer3.png);
   /* Full Page Background Receipe */
   background-size: cover;
   background-position: center;
