@@ -48,15 +48,15 @@ body {
 
 h1 {
   font-size: 44px;
-  font-size: 4vmax;
-  margin-bottom: -30px;
+  font-size: 3.5vmax;
+  margin-bottom: -28px;
   padding-top: 18px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
-  font-size: 3vmax;
+  font-size: 2.8vmax;
   margin-bottom: 0 auto;
 }
 
