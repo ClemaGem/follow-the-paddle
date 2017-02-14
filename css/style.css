@@ -11,7 +11,6 @@ body {
 }
 
   .headcontainer {
-    width: 600px;
     margin: 0 auto;
     background: rgba(0,0,0,0.5);
     margin-bottom: 30px;
@@ -19,70 +18,60 @@ body {
     padding-bottom: 2px;
   }
 
- .eventcontainers {
-    width: 500px;
-    margin: 0 auto;
-  }
-
  .livecontainer {
-    float: left;
-    width: 150px;
-    margin: 5px;
-    background: rgba(0,0,0,0.3);
-    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(0,0,0,0.4);
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
   }
 
  .pastcontainer {
-    float: left;
-    width: 150px;
-    margin: 5px;
-    background: rgba(0,0,0,0.3);
-    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(0,0,0,0.4);
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
   }
 
  .futurecontainer {
-    float: left;
-    width: 150px;
-    margin: 5px;
-    background: rgba(0,0,0,0.3);
-    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(0,0,0,0.4);
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
   }
 
 .twitter-container {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 44px;
   margin-bottom: -36px;
   padding-top: 18px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 0 auto;
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-size: 26px;
+  text-decoration: underline;
 }
 
 p {
-  font-size: 12px;
+  font-size: 18px;
   margin: -2px;
-  color: black;
+  color: white;
 }
 
 a {
-  font-size: 12px;
-  color: #241789;
+  font-size: 18px;
+  color: #43ABC9;
   text-decoration: none;
 }
