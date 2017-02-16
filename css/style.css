@@ -79,19 +79,19 @@ a {
 
 .round-button {
     margin: 0 auto;
-    display:block;
-    width:60px;
-    height:60px;
-    line-height:60px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     border: 2px solid #f5f5f5;
     border-radius: 50%;
-    color:#f5f5f5;
-    text-align:center;
-    text-decoration:none;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
     background: #F8AC1C;
     box-shadow: 0 0 3px gray;
-    font-size:20px;
-    font-weight:bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 .round-button:hover {
     background: #43ABC9;
