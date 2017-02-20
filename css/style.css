@@ -78,6 +78,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #43ABC9;
+}
+
+b {
+  font-size: 18px;
+  color: #F8AC1C;
+  text-decoration: none;
+}
+
 .round-button {
     margin: 0 auto;
     display: block;
@@ -96,4 +106,34 @@ a {
 }
 .round-button:hover {
     background: #43ABC9;
+}
+
+/***SELECTIONS***/
+/*** Works on common browsers ***/
+::selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #43ABC9;
+    color: #fff;
 }
