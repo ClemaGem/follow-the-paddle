@@ -1,1 +1,1 @@
-## Site code for [Veteran Voyage 360](http://www.veteranvoyage360.com/) adventure tracking.
+## Site code for [Veteran Voyage 360](http://www.followthepaddle.org/) adventure tracking.
