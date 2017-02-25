@@ -1,3 +1,3 @@
-# Site code for <a href="http://www.followthepaddle.org/" target="_blank">Follow The Paddle</a>.
+# Site code for [Follow The Paddle] (http://followthepaddle.org).
 
-### Adventure tracking for [Veteran Voyage 360](http://www.veteranvoyage360.com/) events.
+Adventure tracking for [Veteran Voyage 360](http://www.veteranvoyage360.com/) events.
