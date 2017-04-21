@@ -95,8 +95,20 @@ a {
     font-size: 45px;
     font-weight: bold;
 }
+
 .round-button:hover {
     background: #43ABC9;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #DDD;
+}
+
+.footer-text:hover {
+  font-size: 14px;
+  color: red;
+  transition: 1s;
 }
 
 /***SELECTIONS***/
