@@ -27,6 +27,14 @@ body {
     padding-bottom: 18px;
   }
 
+.comingsooncontainer {
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-bottom: 18px;
+  }
+
  .pastcontainer {
     margin: 0 auto;
     width: 300px;
