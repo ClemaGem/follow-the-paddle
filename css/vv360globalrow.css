@@ -1,3 +1,7 @@
 body {
-  background: url(https://s3.amazonaws.com/followthepaddle-ago/VV360GlobalRowGH.jpg) no-repeat;
+  background: url(https://s3.amazonaws.com/followthepaddle-ago/VV360GlobalRowGH.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
