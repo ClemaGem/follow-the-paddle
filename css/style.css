@@ -1,5 +1,5 @@
 body {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', sans-serif;
   text-align: center;
   line-height: 1.5;
   color: white;
@@ -19,8 +19,23 @@ body {
     padding-bottom: 20px;
   }
 
- .livecontainer {
+ .columncontainer {
     margin: 0 auto;
+    max-width: 1000px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+    -webkit-column-width: 320px; /* Chrome, Safari, Opera */
+    -moz-column-width: 320px; /* Firefox */
+    column-width: 320px;
+    break-inside: avoid;
+  }
+
+ .livecontainer {
+    margin: 0 auto 18px;
     width: 300px;
     background: rgba(0,0,0,0.4);
     border-radius: 10px;
@@ -28,27 +43,36 @@ body {
   }
 
 .comingsooncontainer {
-    margin: 0 auto;
+    margin: 0 auto 18px;
     width: 300px;
     background: rgba(0,0,0,0.4);
     border-radius: 10px;
     padding-bottom: 18px;
+    -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+    -moz-page-break-inside: avoid; /* Firefox. */
+    break-inside: avoid;
   }
 
  .pastcontainer {
-    margin: 0 auto;
+    margin: 0 auto 18px;
     width: 300px;
     background: rgba(0,0,0,0.4);
     border-radius: 10px;
     padding-bottom: 18px;
+    -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+    -moz-page-break-inside: avoid; /* Firefox. */
+    break-inside: avoid;
   }
 
  .futurecontainer {
-    margin: 0 auto;
+    margin: 0 auto 18px;
     width: 300px;
     background: rgba(0,0,0,0.4);
     border-radius: 10px;
     padding-bottom: 18px;
+    -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+    -moz-page-break-inside: avoid; /* Firefox. */
+    break-inside: avoid;
   }
 
 .twitter-container {
@@ -72,6 +96,7 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 26px;
+  display: inline-block;
 }
 
 p {
