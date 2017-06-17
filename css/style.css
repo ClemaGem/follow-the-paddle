@@ -6,7 +6,7 @@ body {
   background: url(../images/OPPHXFromTrailer3.png);
   /* Full Page Background Receipe */
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-attachment: fixed;
 }
 
