@@ -19,6 +19,17 @@ body {
     padding-bottom: 20px;
   }
 
+ .videocontainer {
+    margin: 0 auto;
+    max-width: 1000px;
+    background: rgba(0,0,0,0.4);
+    margin: 0 auto 18px;
+    border-radius: 18px;
+    padding: 20px 10px 10px 10px;
+    -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+    -moz-page-break-inside: avoid; /* Firefox. */
+ }
+
  .columncontainer {
     margin: 0 auto;
     max-width: 1000px;
