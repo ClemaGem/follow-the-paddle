@@ -19,6 +19,15 @@ body {
   padding-bottom: 20px;
 }
 
+.subcontainer {
+  margin: 0 auto;
+  max-width: 900px;
+  background: rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+  border-radius: 18px;
+  padding: 0px 20px 0px 20px;
+}
+
 /* .videocontainer { */
 /*   margin: 0 auto; */
 /*   max-width: 1000px; */
@@ -34,7 +43,7 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   position:relative;
-  padding-bottom:45%;
+  padding-bottom:56.25%;
   padding-top:30px;
   height:0;
   overflow:hidden;
