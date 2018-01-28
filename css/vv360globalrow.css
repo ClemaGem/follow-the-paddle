@@ -1,4 +1,8 @@
 body {
+  font-family: 'Special Elite', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
   background: url(https://s3.amazonaws.com/followthepaddle-ago/VV360GlobalRowGH.jpg);
   background-size: contain;
   background-repeat: no-repeat;
