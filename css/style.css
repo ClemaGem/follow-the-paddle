@@ -161,6 +161,14 @@ a {
   text-decoration: none;
 }
 
+.button-subtext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
 .round-button {
   margin: 0 auto;
   display: block;
