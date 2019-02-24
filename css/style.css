@@ -124,6 +124,17 @@ body {
   break-inside: avoid;
 }
 
+.followcontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+  -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+  -moz-page-break-inside: avoid; /* Firefox. */
+  break-inside: avoid;
+}
+
 .twitter-container {
   margin-top: 50px;
 }
