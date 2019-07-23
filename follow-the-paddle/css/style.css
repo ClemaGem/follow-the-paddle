@@ -1,0 +1,284 @@
+body {
+  font-family: 'Special Elite', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  background: url(../images/OPPHXFromTrailer3.png);
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+}
+
+.headcontainer {
+  margin: 0 auto;
+  max-width: 1500px;
+  background: rgba(0,0,0,0.55);
+  margin-bottom: 30px;
+  border-radius: 18px;
+  padding-bottom: 20px;
+}
+
+.subcontainer {
+  margin: 0 auto;
+  max-width: 900px;
+  background: rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+  border-radius: 18px;
+  padding: 0px 20px 0px 20px;
+}
+
+/* .videocontainer { */
+/*   margin: 0 auto; */
+/*   max-width: 1000px; */
+/*   background: rgba(0,0,0,0.4); */
+/*   margin: 0 auto 18px; */
+/*   border-radius: 18px; */
+/*   padding: 20px 10px 10px 10px; */
+/*   -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+/*   -moz-page-break-inside: avoid; /* Firefox. */
+/* }  */
+
+.video-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%    !important;
+  height:94%   !important;
+}
+
+.columncontainer {
+  margin: 0 auto;
+  max-width: 900px;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 10px; /* Firefox */
+  column-gap: 10px;
+  -webkit-column-width: 320px; /* Chrome, Safari, Opera */
+  -moz-column-width: 320px; /* Firefox */
+  column-width: 320px;
+  break-inside: avoid;
+}
+
+.livecontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+}
+
+.comingsooncontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+  -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+  -moz-page-break-inside: avoid; /* Firefox. */
+  break-inside: avoid;
+}
+
+.pastcontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+  -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+  -moz-page-break-inside: avoid; /* Firefox. */
+  break-inside: avoid;
+}
+
+.futurecontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+  -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+  -moz-page-break-inside: avoid; /* Firefox. */
+  break-inside: avoid;
+}
+
+.supportcontainer {
+  margin: 0 auto 18px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding-bottom: 18px;
+  -webkit-page-break-inside: avoid; /* Chrome, Safari, Opera */
+  -moz-page-break-inside: avoid; /* Firefox. */
+  break-inside: avoid;
+}
+
+.twitter-container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 44px;
+  font-size: 3.5vmax;
+  margin-bottom: -26px;
+  padding-top: 18px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-size: 2.8vmax;
+  margin-bottom: 0 auto;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  display: inline-block;
+}
+
+p {
+  font-size: 18px;
+  margin: -2px;
+  color: white;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: #F8AC1C;
+  text-decoration: none;
+}
+
+.button-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  bottom: 60px;
+}
+
+.button-subtext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  bottom: 50px;
+}
+
+.round-button {
+  margin: 0 auto;
+  display: block;
+  width: 130px;
+  height: 130px;
+  line-height: 110px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: #F8AC1C;
+  box-shadow: 0 0 3px gray;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.round-button:hover {
+background: #43ABC9;
+}
+
+.round-button-donate {
+  margin: 0 auto;
+  display: block;
+  width: 130px;
+  height: 130px;
+  line-height: 120px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: #F8AC1C;
+  box-shadow: 0 0 3px gray;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.round-button-donate:hover {
+background: #43ABC9;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #DDD;
+}
+
+.footer-text:hover {
+  font-size: 14px;
+  color: red;
+  transition: 1s;
+}
+
+.tempcolumn {
+    float: left;
+}
+
+.templeft {
+  width: 25%;
+}
+
+.tempright {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.temprow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/***SELECTIONS***/
+/*** Works on common browsers ***/
+::selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #43ABC9;
+    color: #fff;
+}
