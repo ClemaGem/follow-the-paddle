@@ -1,0 +1,30 @@
+body {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+  .headcontainer {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 18px;
+    padding-bottom: 2px;
+  }
+
+h1 {
+  font-size: 38px;
+  margin-bottom: -20px;
+  padding-top: 18px;
+}
+
+a {
+  font-size: 12px;
+  color: #241789;
+  text-decoration: none;
+}

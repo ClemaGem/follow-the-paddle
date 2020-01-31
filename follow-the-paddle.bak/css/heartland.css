@@ -1,0 +1,7 @@
+body {
+  background: url(https://s3.amazonaws.com/followthepaddle-ago/Operation+Heartland.png);
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
